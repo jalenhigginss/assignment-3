@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+  Name: Jalen Higgins
+  Date: 09.12.2025
+  CSC 372-01
+
+  This is the index.html page for Assignment 3: Dine On Campus.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dine on campus @ uncg</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="site-header">
+      <div class="container">
+        <h1>dine on campus @ uncg</h1>
+        <nav aria-label="primary">
+          <ul id="nav-list">
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#restaurants">restaurants</a></li>
+            <li><a href="#extras">extras</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="container">
+      <section id="intro">
+        <h2 class="section-title">introduction</h2>
+        <p>
+          Welcome to a quick, student-friendly guide to eating within walking distance of the
+          Petty building at UNCG. This page highlights three nearby spots where you can grab
+          coffee, sushi, hot dogs, and ice cream without a car. Each section includes a short
+          overview of the restaurant and three specific dishes with captions so you can decide
+          fast between classes.
+        </p>
+      </section>
+
+      <section id="restaurants">
+        <h2 class="section-title">three nearby spots</h2>
+
+        <!-- 1) Tate Street Coffee House -->
+        <article class="restaurant" id="tate-street-coffee">
+          <header class="restaurant-header">
+            <h3 class="restaurant-name">tate street coffee house</h3>
+            <p class="restaurant-summary">
+              The best  coffee shop on Tate Street. Known for
+              reliable espresso drinks, comfy seating, and local art. Hours vary slightly by day,
+              mornings to late evenings.
+            </p>
+            <figure class="restaurant-figure">
+              <img src="images/tate-street-coffee.webp"
+                   alt="front of tate street coffee house on tate street">
+              <figcaption class="image-credit">
+                image credit:
+                <a href="#" class="https://www.google.com/search?q=tate+street+coffee&sca_esv=7e5e7a55be7d1632&source=hp&ei=mJvEaP-tKrDs5NoPu5nQ-AM&iflsig=AOw8s4IAAAAAaMSpqGWx6KeIUq0pcjpI72Vv2eYa9NBh&gs_ssp=eJzj4tZP1zcsScuItygvM2C0UjWosLAwNTa0NE6zNE-2NEu1NLQyqLA0NTQ0NrBMSkkyNUg0SU72EipJLElVKC4pSk0tUUjOT0tLTQUA4DwVdQ&oq=tate&gs_lp=Egdnd3Mtd2l6IgR0YXRlKgIIATILEC4YgAQYsQMYgwEyDhAuGIAEGMcBGI4FGK8BMg4QLhiABBjHARiOBRivATILEAAYgAQYsQMYgwEyBRAAGIAEMgsQABiABBixAxiDATIIEAAYgAQYsQMyDhAuGIAEGMcBGI4FGK8BMg4QABiABBixAxiDARiKBTILEAAYgAQYsQMYgwFIjCZQAFj_AnAAeACQAQCYAZYCoAHbBqoBBTAuMi4yuAEByAEA-AEBmAIEoALuBsICFBAuGIAEGLEDGIMBGMcBGIoFGK8BwgIOEC4YgAQYsQMYgwEYigXCAg4QLhiABBixAxjRAxjHAcICERAuGIAEGLEDGNEDGIMBGMcBwgILEC4YgAQY0QMYxwHCAgQQABgDwgILEC4YgAQYxwEYrwHCAgsQABiABBixAxjJA8ICCBAAGIAEGJIDmAMAkgcFMC4yLjKgB4ZBsgcFMC4yLjK4B-4GwgcDMi00yAcQ&sclient=gws-wiz#lpg=cid:CgIgAQ%3D%3D,ik:CAoSFkNJSE0wb2dLRUlDQWdJRGR0UEg2TVE"> source link</a>
+              </figcaption>
+            </figure>
+          </header>
+
+          <div class="dish-cards">
+            <article class="dish-card">
+              <h4 class="dish-name">large latte</h4>
+              <img src="images/london-mount-row-pick-up-v0-lusaykdq6abf1.jpg" alt="latte with simple milk art">
+              <p class="dish-caption">smooth espresso + steamed milk; balanced and not too sweet.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=chrome+hearts+latte&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=bp3EaPzUMdjk5NoP4avUmAU&ved=0ahUKEwj8w_DZodSPAxVYMlkFHeEVFVMQ4dUDCBE&uact=5&oq=chrome+hearts+latte&gs_lp=EgNpbWciE2Nocm9tZSBoZWFydHMgbGF0dGVIiidQAFjkIXABeACQAQGYAcsCoAGKDaoBCDE2LjEuMS4xuAEDyAEA-AEBmAIRoAKnC6gCAMICChAAGIAEGEMYigXCAgQQABgDwgIOEAAYgAQYsQMYgwEYigXCAggQABiABBixA8ICCxAAGIAEGLEDGIMBwgINEAAYgAQYsQMYQxiKBcICEBAAGIAEGLEDGEMYgwEYigXCAgUQABiABMICBBAAGB7CAgYQABgKGB7CAggQABgIGAoYHsICBhAAGAgYHpgDApIHCDE1LjEuMC4xoAf9W7IHCDE1LjEuMC4xuAenC8IHBzAuNC44LjXIB14&sclient=img#vhid=6laCCIZf7W4CbM&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+
+            <article class="dish-card">
+              <h4 class="dish-name">house iced coffee</h4>
+              <img src="images/714-25inJkL._UF350,350_QL80_.jpg" alt="iced coffee in a clear cup with ice">
+              <p class="dish-caption">cold, strong, and budget-friendly for long study sessions.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=iced+coffee+clear+ice&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=gZ3EaKydLJrZ5NoP-q6ggA0&ved=0ahUKEwjs4fLiodSPAxWaLFkFHXoXCNAQ4dUDCBE&uact=5&oq=iced+coffee+clear+ice&gs_lp=EgNpbWciFWljZWQgY29mZmVlIGNsZWFyIGljZUi9LFAAWLEpcAB4AJABAJgBvAWgAZsUqgEOMTcuMS4xLjAuMS4wLjG4AQPIAQD4AQGYAhKgAoQTwgILEAAYgAQYsQMYgwHCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgIFEAAYgATCAgoQABiABBhDGIoFwgINEAAYgAQYsQMYQxiKBcICBBAAGB7CAgYQABgKGB7CAgYQABgIGB6YAwCSBwoxNS4zLTE"> source link</a>
+              </p>
+            </article>
+
+            <article class="dish-card">
+              <h4 class="dish-name">spinach feta croissant</h4>
+              <img src="images/small-butter-spinach-feta-savory-croissant-6-piecessavory-pastriesdavidovich-bakery-405203.jpg" alt="golden croissant with spinach and feta">
+              <p class="dish-caption">flaky pastry with a savory filling, great with any espresso drink.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=spinach+feta+croissant&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=rp7EaPX4D9me5NoP8cCm4QQ&oq=spinach+feta+crois&gs_lp=EgNpbWciEnNwaW5hY2ggZmV0YSBjcm9pcyoCCAAyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjJVlCoB1iOSHACeACQAQWYAa4QoAHHZaoBCjEyLjctMi4zLjK4AQHIAQD4AQGYAg6gAu4ZqAIAwgIKEAAYgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAgQQABgDwgIOEAAYgAQYsQMYgwEYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIQEAAYgAQYsQMYQxiDARiKBZgDAYgGAZIHBjEyLjctMqAHgmSyBwYxMi43LTK4B-4ZwgcGMC40LjEwyAcz&sclient=img#vhid=JIsYtBrsZjtB6M&vssid=mosaic">source link</a>
+              </p>
+            </article>
+          </div>
+        </article>
+
+        <!-- 2) Sushi Republic -->
+        <article class="restaurant" id="sushi-republic">
+          <header class="restaurant-header">
+            <h3 class="restaurant-name">sushi republic</h3>
+            <p class="restaurant-summary">
+              Casual sushi and Japanese place on Tate Street. Good mix of classic rolls,
+              bento boxes, and quick lunch combos; friendly for dine-in or takeout.
+            </p>
+            <figure class="restaurant-figure">
+              <img src="images/sushi-republic-gallery-6.jpg"
+                   alt="sushi republic exterior on tate street">
+              <figcaption class="image-credit">
+                image credit:
+                <a href="#" class="https://www.google.com/search?q=sushi+republic+tate+street&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=kLHEaJfUJ8er5NoPm9aysQg&oq=sushi+republic+tate&gs_lp=EgNpbWciE3N1c2hpIHJlcHVibGljIHRhdGUqAggAMgUQABiABEiTV1CmB1jBRnAEeACQAQCYAYcBoAGWCqoBBDIxLjG4AQHIAQD4AQGYAhSgAp4JqAIAwgIKEAAYgAQYQxiKBcICBBAAGAPCAg4QABiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg0QABiABBixAxhDGIoFwgIREAAYgAQYsQMYgwEYxwMYigXCAgYQABgIGB6YAwWSBwIyMKAH61OyBwIxObgHmAnCBwgwLjMuMTYuMcgHbw&sclient=img#vhid=1EGpye1uaqD7RM&vssid=mosaic"> source link</a>
+              </figcaption>
+            </figure>
+          </header>
+
+          <div class="dish-cards">
+            <article class="dish-card">
+              <h4 class="dish-name">california roll</h4>
+              <img src="images/best-california-roll-001.jpg" alt="plate with california sushi rolls">
+              <p class="dish-caption">crab, avocado, cucumber; mild and beginner-friendly.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=california+roll+sushi&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=1LLEaN_ZG_ix5NoP9LXa8AI&oq=cal&gs_lp=EgNpbWciA2NhbCoCCAAyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCxAAGIAEGLEDGIMBMgoQABiABBhDGIoFMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFSI0iUOAHWJQZcAN4AJABAJgBQ6ABsgKqAQE1uAEByAEA-AEBmAIHoALnAqgCAMICBBAAGAPCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIFEAAYgASYAwSSBwE3oAeKGbIHATW4B9YCwgcFMi02LjHIBzA&sclient=img#vhid=1C1hQfeDVQUW6M&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+
+            <article class="dish-card">
+              <h4 class="dish-name">spicy tuna roll</h4>
+              <img src="images/spicy-tuna-roll.jpeg" alt="spicy tuna rolls topped with sauce">
+              <p class="dish-caption">a little heat, still balanced; pairs well with miso soup.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=spicy+tuna+roll&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=XLPEaMCQKqPj5NoPhoC4iQE&ved=0ahUKEwjAruTOttSPAxWjMVkFHQYALhEQ4dUDCBE&uact=5&oq=spicy+tuna+roll&gs_lp=EgNpbWciD3NwaWN5IHR1bmEgcm9sbDINEAAYgAQYsQMYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiPLlDDB1jOKHABeACQAQCYAUigAYcHqgECMTW4AQPIAQD4AQGYAg-gAvkHqAIAwgIKEAAYgAQYQxiKBcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQOYAwKSBwIxNaAH1E-yBwIxNbgH-QfCBwYyLTEyLjPIB2g&sclient=img#vhid=UyA9uh7Q4xySVM&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+
+            <article class="dish-card">
+              <h4 class="dish-name">teriyaki chicken bento</h4>
+              <img src="images/teriyaki-bento.jpg" alt="teriyaki chicken bento with rice and salad">
+              <p class="dish-caption">protein + rice + salad in one reliable, filling box.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=teriyaki+chicken+bento&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=-bPEaLbeLL2r5NoP047u-AY&ved=0ahUKEwj2vtWZt9SPAxW9FVkFHVOHG28Q4dUDCBE&uact=5&oq=teriyaki+chicken+bento&gs_lp=EgNpbWciFnRlcml5YWtpIGNoaWNrZW4gYmVudG8yBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgYQABgFGB4yBhAAGAUYHjIGEAAYBRgeSLgxUJAHWJoucAF4AJABAJgB0wGgAbILqgEGMjEuMC4xuAEDyAEA-AEBmAIWoALLDKgCAMICChAAGIAEGEMYigXCAg4QABiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgINEAAYgAQYsQMYQxiKBcICCBAAGIAEGLEDwgIHEAAYgAQYCpgDBJIHBjIxLjAuMaAHv3qyBwYyMS4wLjG4B8sMwgcGMi0xOC40yAeNAQ&sclient=img#vhid=U_ZQeiEqPaoeDM&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+          </div>
+        </article>
+
+        <!-- 3) Yum Yum Better Ice Cream & Hot Dogs -->
+        <article class="restaurant" id="yum-yum">
+          <header class="restaurant-header">
+            <h3 class="restaurant-name">yum yum better ice cream & hot dogs</h3>
+            <p class="restaurant-summary">
+              Greensboro staple on Spring Garden. Simple menu with classic hot dogs,
+              house-made ice cream, and shakes. A nostalgic stop right next to campus.
+            </p>
+            <figure class="restaurant-figure">
+              <img src="images/yum-yum-slide-1-things-to-do..jpg"
+                   alt="exterior of yum yum better ice cream and hot dogs">
+              <figcaption class="image-credit">
+                image credit:
+                <a href="#" class="https://www.google.com/search?q=yum+yum+better+ice+cream+%26+hot+dogs&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=hrTEaLyHNvau5NoP6cOzuQc&ved=0ahUKEwi84vzct9SPAxV2F1kFHenhLHcQ4dUDCBE&uact=5&oq=yum+yum+better+ice+cream+%26+hot+dogs&gs_lp=EgNpbWciI3l1bSB5dW0gYmV0dGVyIGljZSBjcmVhbSAmIGhvdCBkb2dzMgYQABgIGB5IhRlQrgdY_hRwAngAkAEDmAFvoAHWCqoBBDE3LjO4AQPIAQD4AQH4AQKYAgOgAn2oAgDCAgoQABiABBhDGIoFwgIGEAAYBxgewgIFEAAYgATCAgQQABgewgIGEAAYBRgemAMDiAYBkgcBM6AHr2myBwEyuAd3wgcFMC4xLjLIBw0&sclient=img#vhid=Mev9yHwxOG-JfM&vssid=mosaic"> source link</a>
+              </figcaption>
+            </figure>
+          </header>
+
+          <div class="dish-cards">
+            <article class="dish-card">
+              <h4 class="dish-name">carolina hot dog</h4>
+              <img src="images/Carolina-Slaw-Dogs6-902x640.jpg" alt="hot dog with chili, slaw, and mustard">
+              <p class="dish-caption">chili, slaw, mustard, classic carolina combo.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=carolina+hot+dog&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=DLXEaMKWIo3a5NoPu6LKkQQ&ved=0ahUKEwjCzNucuNSPAxUNLVkFHTuRMkIQ4dUDCBE&uact=5&oq=carolina+hot+dog&gs_lp=EgNpbWciEGNhcm9saW5hIGhvdCBkb2cyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI3StQzgVY8SdwAXgAkAEAmAG4AaABjAmqAQQxNC4yuAEDyAEA-AEBmAIQoALyCagCAMICBBAAGAPCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAgoQABiABBhDGIoFwgINEAAYgAQYsQMYQxiKBcICChAAGIAEGLEDGAqYAwOSBwQxNC4yoAf3ULIHBDE0LjK4B_IJwgcIMC4yLjEyLjLIB1w&sclient=img#vhid=NNpUSWQlMVI05M&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+
+            <article class="dish-card">
+              <h4 class="dish-name">vanilla ice cream</h4>
+              <img src="images/vanilla-ice-cream.jpg" alt="scoop of vanilla ice cream in a cup">
+              <p class="dish-caption">house-made and smooth; simple done right.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=vanilla+ice+cream&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=f7XEaJimGfqx5NoP98SV2QY&ved=0ahUKEwjY4b3TuNSPAxX6GFkFHXdiJWsQ4dUDCBE&uact=5&oq=vanilla+ice+cream&gs_lp=EgNpbWciEXZhbmlsbGEgaWNlIGNyZWFtMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEieKlD3Bli2JXABeACQAQCYAa8BoAG3CKoBBDE2LjG4AQPIAQD4AQGYAhGgArIJqAIAwgIOEAAYgAQYsQMYgwEYigXCAgsQABiABBixAxiDAcICChAAGIAEGEMYigXCAg0QABiABBixAxhDGIoFwgIQEAAYgAQYsQMYQxiDARiKBZgDA5IHBDE2LjGgB9tbsgcEMTYuMbgHsgnCBwYyLTE1LjLIB3A&sclient=img#vhid=3kCgETABi07EHM&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+
+            <article class="dish-card">
+              <h4 class="dish-name">pineapple milkshake</h4>
+              <img src="images/pineapple-milkshake.webp" alt="pineapple milkshake with straw">
+              <p class="dish-caption">tropical and sweet; great warmer-weather treat.</p>
+              <p class="image-credit">
+                credit: <a href="#" class="https://www.google.com/search?q=pineapple+milkshake&sca_esv=7e5e7a55be7d1632&udm=2&biw=1358&bih=642&ei=FrbEaMCwFbiv5NoPzdu4mAM&oq=pineapple+milk&gs_lp=EgNpbWciDnBpbmVhcHBsZSBtaWxrKgIIADIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIxy9QkQdY7CRwAXgAkAEAmAE_oAGJBqoBAjE0uAEByAEA-AEBmAIOoALgBqgCAMICChAAGIAEGEMYigXCAg4QABiABBixAxiDARiKBcICDRAAGIAEGLEDGEMYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDmAMBkgcCMTSgB_FKsgcCMTS4B-AGwgcGMi0xMi4yyAdQ&sclient=img#vhid=nNhqj3o6dwH6bM&vssid=mosaic"> source link</a>
+              </p>
+            </article>
+          </div>
+        </article>
+      </section>
+
+      <aside id="extras">
+        <h2 class="section-title">extras</h2>
+        <p>
+          Keep an eye on daily specials and lunch combos, prices shift and student-friendly deals
+          pop up. Some campus-run spots take flex dollars, but most Tate Street staples do not,
+          so plan for card/cash just in case.
+        </p>
+      </aside>
+
+      <section id="contact">
+        <h2 class="section-title">closing & contact</h2>
+        <p>
+          Thanks for reading! If you try any of these, send your mini-review. Suggestions for other
+          close-by spots are welcome, too.
+        </p>
+        <form id="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="email">your email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit">send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="site-footer">
+      <p>&copy; 2025 jalen higgins • csc 372-01 • images must be ≤ 300px • replace all image credits with exact sources.</p>
+    </footer>
+  </body>
+</html>
